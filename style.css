@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background: url('./image/Hot-Air-Balloons-Sunset.webp') no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.background{
+    background-size: cover;
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+}
+.logo{
+    padding: 15px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    font-size: 1rem;
+    padding: 15px;
+}
+ul li a{
+    font-size: 24px;
+    margin: 15px;
+}
+.hp{
+   padding-top: 19rem;
+   padding-left: 2rem;
+}
+.hp h2{
+    font-size: 55px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+.hp p{
+    font-size: 30px;
+    color: #fff;
+}
