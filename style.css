@@ -41,10 +41,28 @@ ul li a{
 }
 .hp h2{
     font-size: 55px;
-    color: #fff;
+    color: #302e34;
     padding-bottom: 16px;
 }
 .hp p{
     font-size: 30px;
+    color: #fff;
+}
+.second-section{
+    padding: 65px;
+}
+.second-section h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.second-section h2{
+    font-weight: 600;
+    font-size: 45px;
+}
+.p-content{
+    display: flex;
+    width: 70%;
+}
+.btn.btn-warning{
     color: #fff;
 }
