@@ -41,23 +41,27 @@ ul li a{
 }
 .hp h2{
     font-size: 55px;
-    color: #302e34;
+    color: #fff;
     padding-bottom: 16px;
 }
 .hp p{
     font-size: 30px;
     color: #fff;
 }
-.second-section{
-    padding: 65px;
-}
 .second-section h4{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
+    text-align: center;
+    color: #a4a4b7;
+    letter-spacing: 2px;
+    padding-bottom: 45px;
 }
 .second-section h2{
-    font-weight: 600;
-    font-size: 45px;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #5e6d81;
+    padding: 35px 0 15px;
 }
 .p-content{
     display: flex;
@@ -65,4 +69,152 @@ ul li a{
 }
 .btn.btn-warning{
     color: #fff;
+}
+.contents{
+    height: auto;
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+.content1{
+    padding: 15px;
+}
+.berlin{
+    width: 100%;
+    background-color: #434a54;
+    color: #fff;
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+}
+.content1 .btn{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    border: none;
+}
+.btn .btn-1{
+    width: 50%;
+    background-color: #ba71da;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px; 
+}
+.btn .btn-2{
+    width: 50%;
+    background-color: #c180de;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid;
+    
+}
+.btn .btn-3{
+    width: 50%;
+    background-color: #14b9d5;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px; 
+}
+.btn .btn-4{
+    width: 50%;
+    background-color: #2cc0d9;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px; 
+}
+.btn .btn-5{
+    width: 50%;
+    background-color: #f76570;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px; 
+}
+.btn .btn-6{
+    width: 50%;
+    background-color: #f8757f;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px; 
+}
+.btn .btn-7{
+    width: 50%;
+    background-color: #1bbc9b;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px; 
+}
+.btn .btn-8{
+    width: 50%;
+    background-color: #32c3a5;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid;
+    
+}
+.btn .btn-9{
+    width: 50%;
+    background-color: #f3a46b;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px; 
+}
+.btn .btn-10{
+    width: 50%;
+    background-color: #f4ad7a;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid;
+    
+}
+.btn .btn-11{
+    width: 50%;
+    background-color: #ffd205;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 5px; 
+}
+.btn .btn-12{
+    width: 50%;
+    background-color: #ffd71e;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid;
+    
+}
+.p-lorem{
+    padding: 10px;
+    box-shadow: 0px 0px 8px #888888;
+    color: #a6a4a4;
+}
+.btn-dtls{
+    margin-top: 20px;
+    padding: 8px 15px;
+    border: 1px solid;
+    color: #a6a4a4;
+    background-color: #fff;
 }
