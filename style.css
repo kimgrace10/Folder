@@ -36,7 +36,7 @@ ul li a{
     margin: 15px;
 }
 .hp{
-   padding-top: 23rem;
+   padding-top: 23rem!important;
    padding-left: 2rem;
 }
 .hp h2{
