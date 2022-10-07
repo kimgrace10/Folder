@@ -1,262 +1,100 @@
-<!Doctype HTML>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <title>DEMO REPO</title>
-    </head>
-    <body>
-        <section class="background"> 
-            <nav class="navbar">
-                <div class="logo"> <img src="./image/logo.png" alt="logo" height="40px" width="200px"></div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Book a Trip</a></li>
-                    <li class="success"><a href="#">Help</a></li>
-                </ul>
-            </nav>
-            <div class="hp">
-                <h2>Tripster Travel Guide</h2>
-                <p>Discover new places, travel ideas, and firsthand insights.
-            </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div id="main-button">
+            <p>+732 457 3342</p>
+        </div>
+        <div id="logo">
+            <img src="./image/logo-no-background.png" height="140px" width="130px">
+        </div>
+        <button id="open-btn">
+            <p>Start a Project Evaluation</p>
+        </button> 
+    </header>
+
+    <div>
+        <div class="container">
+            <div class="left-text">
+                <h2>Enhance Your <br> Living Space with <br> a New Entry Door</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
-        </section>
-        <section class="second-section">
-            <h2>TOP PROMOTIONS</h2>
-            <h4>BEST TRAVEL PACKAGES AVAILABLE</h4>
-            <div class="contents">
-                <div class="content1">
-                    <div class="img1">
-                        <img src="./image/package-berlin.jpg" alt="" height="300px" width="400px">
-                    </div>
-                    <button class="berlin">Berlin</button>
-                    <div class="btn">
-                        <button class="btn-1">Europe</button>
-                        <button class="btn-2">Cultural</button>
-                    </div>
-                    <div class="p-lorem">Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Nunc ut 
-                        efficitur ante. Donec dapibus dictum scelerisque.
-                        <br>
-                        <button class="btn-dtls">DETAILS</button>
-                    </div>
+            <form onsubmit="requiredForm()" id="form-container">
+                <div class="form" id="form-reset">
                     
-                </div>
-                <div class="content1">
-                    <div class="img1">
-                        <img src="./image/package-newdelhi.jpg" alt="" height="300px" width="400px">
-                    </div>
-                    <button class="berlin">New Delhi</button>
-                    <div class="btn">
-                        <button class="btn-3">Asia</button>
-                        <button class="btn-4">History</button>
-                    </div>
-                    <div class="p-lorem">Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Nunc ut 
-                        efficitur ante. Donec dapibus dictum scelerisque.
-                        <br>
-                        <button class="btn-dtls">DETAILS</button>
-                    </div>
-                </div>
-                <div class="content1">
-                    <div class="img1">
-                        <img src="./image/package-london.jpg" alt="" height="300px" width="400px">
-                    </div>
-                    <button class="berlin">London</button>
-                    <div class="btn">
-                        <button class="btn-5">England</button>
-                        <button class="btn-6">Sport</button>
-                    </div>
-                    <div class="p-lorem">Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Nunc ut 
-                        efficitur ante. Donec dapibus dictum scelerisque.
-                        <br>
-                        <button class="btn-dtls">DETAILS</button>
-                    </div>
-                </div>
-            </div>
-            <div class="contents">
-                <div class="content1">
-                    <div class="img1">
-                        <img src="./image/package-cuba.jpg" alt="" height="300px" width="400px">
-                    </div>
-                    <button class="berlin">Cuba</button>
-                    <div class="btn">
-                        <button class="btn-7">America</button>
-                        <button class="btn-8">Relax</button>
-                    </div>
-                    <div class="p-lorem">Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Nunc ut 
-                        efficitur ante. Donec dapibus dictum scelerisque.
-                        <br>
-                        <button class="btn-dtls">DETAILS</button>
-                    </div>
+                        <h3>GOT A PROJECT? LETS EVALUATE<span id="close-modal">&times</span></h3>
+                        
+                    <input type="text" id="fname" class="full-name" placeholder="Full Name" required>
                     
+                    <input type="text" id="zpcode" class="zip-code" placeholder="Zip Code">
+                    <input type="email" id="email" class="mail" placeholder="Email">
+                    
+                    <input type="text" id="phonenum" class="phn-num" placeholder="Phone Number">
                 </div>
-                <div class="content1">
-                    <div class="img1">
-                        <img src="./image/package-rome.jpg" alt="" height="300px" width="400px">
+                <div class="form-policy">
+                    <p>We send correspondence and confirmations often via SMS (Text Message). Is the number provide a Cell Phone?</p>
+                    <div class="check-box"> 
+                        <input type="checkbox" id="box1" value="">
+                        <p>Yes, texting is great</p>
                     </div>
-                    <button class="berlin">Rome</button>
-                    <div class="btn">
-                        <button class="btn-9">Italy</button>
-                        <button class="btn-10">History</button>
+                    <div class="check-box">
+                        <input type="checkbox" id="box2" value="">
+                        <p>No, this is a land line. I'll check my email often.</p>
                     </div>
-                    <div class="p-lorem">Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Nunc ut 
-                        efficitur ante. Donec dapibus dictum scelerisque.
-                        <br>
-                        <button class="btn-dtls">DETAILS</button>
-                    </div>
-                </div>
-                <div class="content1">
-                    <div class="img1">
-                        <img src="./image/package-dubai.jpg" alt="" height="300px" width="400px">
-                    </div>
-                    <button class="berlin">Dubai</button>
-                    <div class="btn">
-                        <button class="btn-11">Asia</button>
-                        <button class="btn-12">Sport</button>
-                    </div>
-                    <div class="p-lorem">Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Nunc ut 
-                        efficitur ante. Donec dapibus dictum scelerisque.
-                        <br>
-                        <button class="btn-dtls">DETAILS</button>
+                    <textarea name="textarea" id="message-box"  cols="48" rows="8" required></textarea>
+                    <div id="modal">
+                        <div id="close-btn">Evaluate My Project</div>
                     </div>
                 </div>
+            </form>
+            <div class="right-images">
             </div>
-        </section>
-        <section class="services">
-            <h4>MULTIPLE BENEFITS INCLUDED</h4>
-            <h2>OUR SERVICES</h2>
-            <div class="container">
-                <div class="card mb-3" style="max-width: 360px; background-color: #a6a4a4; border: none; color: #FFF; padding:20px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./image/ico-02.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Insurance</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
-                        </div>
-                        <button type="button" style="width: 55%;" class="btn btn-success">View more</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card mb-3" style="max-width: 360px; background-color: #a6a4a4; border: none; color: #FFF; padding:20px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./image/ico-06.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Medical Care</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
-                        </div>
-                        <button type="button" style="width: 55%;" class="btn btn-danger">View more</button>
-                      </div>  
-                    </div>
-                  </div>
-                  <div class="card mb-3" style="max-width: 360px; background-color: #a6a4a4; border: none; color: #FFF; padding:20px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./image/ico-01.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Meals Included</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
-                        </div>
-                        <button type="button" style="width: 55%;" class="btn btn-primary">View more</button>
-                      </div>  
-                    </div>
-                    </div>
-                </div>
+        </div>   
+    </div>
+    <div class="sec-container">
+        <div class="sec-content">
+            <div class="sec-image">
+                <img src="./image/services-banner-6.jpg" height="400px" width="500px">
             </div>
-            <div class="container">
-                <div class="card mb-3" style="max-width: 360px; background-color: #a6a4a4; border: none; color: #FFF; padding:20px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./image/ico-03.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Accessibility</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
-                        </div>
-                        <button type="button" style="width: 55%;" class="btn btn-warning">View more</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card mb-3" style="max-width: 360px; background-color: #a6a4a4; border: none; color: #FFF; padding:20px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./image/ico-05.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Customer Care</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
-                        </div>
-                        <button type="button" style="width: 55%; background-color: #ba71da; border-color: #ba71da;" class="btn btn-danger">View more</button>
-                      </div>  
-                    </div>
-                  </div>
-                  <div class="card mb-3" style="max-width: 360px; background-color: #a6a4a4; border: none; color: #FFF; padding:20px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./image/ico-04.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Shuttle Included</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
-                        </div>
-                        <button type="button" style="width: 55%;" class="btn btn-danger">View more</button>
-                      </div>
-                    </div>
-                </div>
+            <div class="sec-text">
+                <h4>About Us</h4>
+               <h2>Lorem Ipsum Dolor</h2> 
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis </span>
+                    erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis 
+                    imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus 
+                    pulvinar nibh tempor porta.</p>
+    
             </div>
-        </section>
-        <section class="footer">
-            <div class="footer-container">
-              <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="./image/logo-color-1.png" alt="" height="40px; width: 200px;">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Curabitur ut diam et nibh condimentum venenatis eu ac
-                    <br>magnasin. Quisque interdum est mauris, eget ullamcorper.</p>
-                  </div>
-                  <div class="OA">
-                    <h3>OUR AGENCY</h3>
-                    <p> Services</p>
-                    <p> Insurancee</p>
-                    <p> Services</p>
-                    <p>  Tourism</p>
-                  </div>
-                  <div class="OA">
-                    <h3>PARTNERS</h3>
-                    <p>Booking</p>
-                    <p>RentalCar</p>
-                    <p>HostelWorld</p>
-                    <p>Trivago</p>
-                  </div>     
-                  <div class="OA">
-                    <h3>LAST MINUTE</h3>
-                    <p>London</p>
-                    <p>California</p>
-                    <p>Indonesia</p>
-                    <p>Europe</p>
-                  </div>          
-                </div>
-                <div class="footer-footer">
-                  <h4>THE BEST WORDPRESS TRAVEL THEME</h4>
-                  <h4>COPYRIGHT TRAVEL THEMES 2022</h4>
-                </div>
-              </div>
-              
+        </div>
+    </div>
+    <div class="accordion">
+        <h3 class="accordion-title">Frequently Asked Questions</h3>
+        <div class="accordion-content">
+            <div class="content-container">
+                <div class="questions">Lorem, ipsum dolor sit amet?</div>
+                <div class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eum maiores facilis veritatis sapiente necessitatibus quidem non iusto commodi, magni nisi soluta delectus, veniam laborum nam. Officiis mollitia voluptas fugiat.</div>
             </div>
-        </section>
-    </body>
+            <div class="content-container">
+                <div class="questions">Lorem, ipsum dolor sit amet?</div>
+                <div class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eum maiores facilis veritatis sapiente necessitatibus quidem non iusto commodi, magni nisi soluta delectus, veniam laborum nam. Officiis mollitia voluptas fugiat.</div>
+            </div>
+            <div class="content-container">
+                <div class="questions">Lorem, ipsum dolor sit amet?</div>
+                <div class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eum maiores facilis veritatis sapiente necessitatibus quidem non iusto commodi, magni nisi soluta delectus, veniam laborum nam. Officiis mollitia voluptas fugiat.</div>
+            </div> 
+        </div>
+            
+    </div>
+
+
+   
+<script src="main.js"></script>
+</body>
 </html>

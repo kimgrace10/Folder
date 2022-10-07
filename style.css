@@ -2,285 +2,255 @@
     padding: 0;
     margin: 0;
 }
-.background{
-    background: url('./image/Hot-Air-Balloons-Sunset.webp') no-repeat;
-    height: 100vh;
-    width: 100%;
-}
-.background{
-    background-size: cover;
-}
-.navbar{
-    justify-content: space-between;
-    display: flex;
-    height: 50px;
-}
-.logo{
-    padding: 15px;
-}
-li a{
-    text-decoration: none;
-    color: #fff;
-    
-}
-li{
-    list-style: none;
-}
-ul{
-    display: flex;
-    font-size: 1rem;
-    padding: 15px;
-}
-ul li a{
-    font-size: 24px;
-    margin: 15px;
-}
-.hp{
-   padding-top: 23rem!important;
-   padding-left: 2rem;
-}
-.hp h2{
-    font-size: 55px;
-    color: #fff;
-    padding-bottom: 16px;
-}
-.hp p{
-    font-size: 30px;
-    color: #fff;
-}
-.second-section h4{
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    color: #a4a4b7;
-    letter-spacing: 2px;
-    padding-bottom: 45px;
-}
-.second-section h2{
-    font-weight: 500;
-    font-size: 30px;
-    text-align: center;
-    color: #5e6d81;
-    padding: 35px 0 15px;
-}
-.p-content{
-    display: flex;
-    width: 70%;
-}
-.btn.btn-warning{
-    color: #fff;
-}
-.contents{
-    height: auto;
-    width: 95%;
-    display: flex;
-    margin: auto;
-    padding-bottom: 35px;
-}
-.content1{
-    padding: 15px;
-}
-.berlin{
-    width: 100%;
-    background-color: #434a54;
-    color: #fff;
-    text-align: left;
-    padding: 15px;
-    font-size: 20px;
-    border: none;
-}
-.content1 .btn{
-    width: 100%;
-    display: flex;
-    padding: 0;
-    border: none;
-}
-.btn .btn-1{
-    width: 50%;
-    background-color: #ba71da;
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 5px; 
-}
-.btn .btn-2{
-    width: 50%;
-    background-color: #c180de;
-    color: #fff;
-    text-align: left;
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid;
-    
-}
-.btn .btn-3{
-    width: 50%;
-    background-color: #14b9d5;
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 5px; 
-}
-.btn .btn-4{
-    width: 50%;
-    background-color: #2cc0d9;
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 5px; 
-}
-.btn .btn-5{
-    width: 50%;
-    background-color: #f76570;
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 5px; 
-}
-.btn .btn-6{
-    width: 50%;
-    background-color: #f8757f;
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 5px; 
-}
-.btn .btn-7{
-    width: 50%;
-    background-color: #1bbc9b;
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 5px; 
-}
-.btn .btn-8{
-    width: 50%;
-    background-color: #32c3a5;
-    color: #fff;
-    text-align: left;
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid;
-    
-}
-.btn .btn-9{
-    width: 50%;
-    background-color: #f3a46b;
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 5px; 
-}
-.btn .btn-10{
-    width: 50%;
-    background-color: #f4ad7a;
-    color: #fff;
-    text-align: left;
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid;
-    
-}
-.btn .btn-11{
-    width: 50%;
-    background-color: #ffd205;
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
-    border: 1px solid;
-    padding: 5px; 
-}
-.btn .btn-12{
-    width: 50%;
-    background-color: #ffd71e;
-    color: #fff;
-    text-align: left;
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid;
-    
-}
-.p-lorem{
-    padding: 10px;
-    box-shadow: 0px 0px 8px #888888;
-    color: #a6a4a4;
-}
-.btn-dtls{
-    margin-top: 20px;
-    padding: 8px 15px;
-    border: 1px solid;
-    color: #a6a4a4;
-    background-color: #fff;
-}
-.services{
-    background-color: #a6a4a4;
-}
-.services .container{
-    display: flex;
-    padding: 50px 0 15px;
-    width: 90%;
-    margin: auto;
-    justify-content: center;
-}
-.services h2{
-    text-align: center;
-    padding-top: 25px;
-    color: #fff;
-}
-.services h4{
-    text-align: center;
-    color: #fff;
-    padding-top: 65px;
-}
-button{
-    width: 30%;
-}
-.footer{
-    background: url('./image/parallax-7.jpg') no-repeat;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    position: relative;
-    
-}   
-.footer-container{
-    width: 90%;
-    margin: auto;
-    position: absolute;
-    top: 12rem;
-    left: 4rem;
-    background: #fff;
-    opacity: 0.9;
-    box-shadow: 0px 0px 10px rgb(247, 238, 238);
-}
-.footer-footer{
-    display: flex;
-    justify-content: space-between;
-    background: #007bff;
-    color: #fff;
-    padding: 15px;
-}
-.footer-footer h4{
-    font-size: 16px;
-}
-.footer-content{
+.header{
     display: flex;
     justify-content: space-around;
-    padding: 2.5rem 1.5rem 3rem;
+    padding: 25px 0;
+    height: 80px;
+    align-content: center;
 }
-.footer-content h3{
-    font-size: 18px;
+#main-button p{
+    padding: 13px 20px;
+    background-color: #fff;
+    border-width: 1.7px;
+    border-radius: 2px;
+    font-weight: 600;
+    color: #000;
+    border: 1px solid;
 }
-.footer-content .OA{
+.container{
+    width: 100%;
+    height: 479px;
+    display: flex;
+    position: relative;
+    background-color: #690a0a;
+}
+#logo{
+    z-index: 1;
+}
+.form{
+    width: 95%;
+    margin: auto;
+}
+.form h3{
+    color: #000;
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font: 22px;
+    display: flex;
+}
+.form span{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+    width: 5%;
+}
+.form span:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 2px 5px;
     text-align: center;
 }
-.footer-logo img{
-    padding-bottom: 15px;
+.form-policy p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 3px;
+    width: 99%;
+}
+.form-policy{
+    padding: 10px;
+}
+.full-name, .phn-num{
+    width: 99%;
+    padding: 5px 0;
+    margin: 3px 0;
+}
+.zip-code, .mail{
+    width: 48.3%;
+    padding: 5px 0;
+    margin: 3px 0;
+}
+.check-box{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+
+.left-text{
+    width: 50%;
+    color: #fff;
+    padding: 75px 35px 0;
+}
+.left-text h2{
+ font-size: 65px;
+}
+.left-text p{
+    font-size: 22px;
+    padding-top: 22px;
+}
+.right-images{
+    background-image: url('./image/Window-Cleaning-Service-768x479.jpg');
+    width: 50%;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+#open-btn {
+    background-color: #b41b1b;
+    padding: 1px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+#open-btn:hover{
+    background-color:#690a0a;
+    cursor: pointer;
+}
+
+#modal{
+    background-color:#690a0a;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    width: 95%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    animation-name: animatemodal;
+    animation-duration: .4s;
+    padding: 8px 0;
+}
+#modal:hover{
+    background-color: #880f0f;
+}
+
+#close-btn{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    text-align: center;  
+}
+
+#form-container{
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    width: 30%;
+    height: 68%;
+    padding-top: 10px;
+    z-index: 1;
+    background-color: #fff;
+} 
+.sec-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sec-image{
+    width: 50%;
+}
+.sec-text{
+    width: 50%;
+   
+    height: 300px;
+    
+}
+.sec-text h4{
+    letter-spacing: .2rem;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.sec-text h2{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.sec-text p{
+    font-size: 21px;
+    padding: 5px;
+}
+#view-more-button{
+    background-color: #b41b1b;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 21;
+}
+#view-more-button:hover{
+    background-color:#690a0a;
+    cursor: pointer;
+}
+.sec-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+}
+.accordion{
+    background-image: url('./image/bathroom-tile-types.1512162242345.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.accordion-title{
+    font-size: 45px;
+    text-align: center;
+    padding: 45px 0px 25px 0;
+}
+.content-container{
+    justify-content: center;
+    margin: auto;
+   
+    padding-bottom: 10px;
+   
+}
+.content-container .questions{
+    font-size: 22px;
+    padding: 18px 0;
+    border-bottom: 1px solid;
+
+    position: relative;
+}
+.content-container .questions::after{
+    content: '+';
+    position: absolute;
+    right: -5px;
+}
+.content-container .answer{
+    padding-top: 15px;
+    line-height: 1.5;
+    width: 100%;
+
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+.accordion-content{
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/*JAvaScript Styling link*/
+
+.content-container .active .answer{
+    height: 50px;
+}
+.content-container.active .questions{
+    font-size: 18px;
+    transition:  .5s;
+
+}
+.content-container.active .questions::after{
+    content: '-';
+    font-size: 12px;
+    transition: .5s;
 }
